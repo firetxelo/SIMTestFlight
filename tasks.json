@@ -1,10 +1,10 @@
 {
-  "op": "SIMTestFlight",
+  "op": "FireTxelo TestFlight",
   "beacon_interval_s": 30,
   "jitter_pct": 20,
   "tasks": [
     { "id": "t-001", "cmd": "sleep", "args": "" },
-    { "id": "t-002", "cmd": "checkin", "args": "report-host-info" }
+    { "id": "t-002", "cmd": "checkin", "args": "synthetic-run-status" }
   ],
-  "note": "eSaferSim lab beacon. eSaferSim only logs this content; it never executes it."
+  "note": "Controlled lab test data only. This endpoint does not host executable payloads; clients must not send real host information or execute downloaded content."
 }
