@@ -1,0 +1,10 @@
+{
+  "op": "SIMTestFlight",
+  "beacon_interval_s": 30,
+  "jitter_pct": 20,
+  "tasks": [
+    { "id": "t-001", "cmd": "sleep", "args": "" },
+    { "id": "t-002", "cmd": "checkin", "args": "report-host-info" }
+  ],
+  "note": "eSaferSim lab beacon. eSaferSim only logs this content; it never executes it."
+}
